@@ -1,0 +1,26 @@
+:root {
+    --primaryColor: #00b7ff;
+    --secondaryColor: #6c757d;
+}
+
+#primaryBtn {
+    background-color: var(--primaryColor);
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#secondaryBtn {
+    background-color: var(--secondaryColor);
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* In the button styles,
+we use var(--primaryColor) and var(--secondaryColor) to set the background color of the buttons. The var() function references the color values defined . */
